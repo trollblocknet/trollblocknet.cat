@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ca">
+	<head>
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Author Meta -->
+	<meta name="author" content="colorlib">
+	<!-- Meta Description -->
+	<meta name="description" content="#TrollBlockNet">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>🚫 Troll-Block Network 🚫 Control de plagues de Trolls a Twitter 🚫</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+		<!--
+		CSS
+		============================================= -->
+		<link rel="stylesheet" href="css/linearicons.css">
+		<!--<link rel="stylesheet" href="css/owl.carousel.css">-->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/nice-select.css">			
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="https://developer-trollblocknet.glitch.me/client.js" async defer></script>
+	
+
+<!-- SIGN-IN WITH TWITTER - CALLBACK -->
+
+        <script>
+            $(function() {
+                $.get('developer-trollblocknet.glitch.me/access-token' + location.search).done(function(user) {
+                    // Do something with your signed in user&#39;s information here.
+                });
+            });
+        </script>
+
+<!-- SPINNER PRELOADER (WORK IN PROGRESS...)-->
+	<script type="text/javascript" src="js/spinner.js"></script>	
+	<script type='text/javascript'>
+    $(function(){
+        $('table').imgPreload()
+    })
+	</script>
+
+<!-- HELP BUTTON SCRIPT --> 
+<script>$(document).ready(function () {
+    $('.helpButton').each(function (i) {
+        var whichModal = i; //use this index, a data attribute on the modal, or $(this).parent().parent() to find delete the actual item from the page
+        var card = $(this).parent().find('.card');
+        $(this).click(function (e) {
+            card.fadeIn('slow');
+        });
+        $(this).parent().find('.modalCancel').click(function (e) {
+            card.fadeOut('slow');
+        });
+    });
+});</script>
+
+	</head>
+	<body>
+		<!-- GIF PRELOADER --> 
+		<!--<div class="se-pre-con"></div>-->
+
+
+		  <header id="header" id="home">
+			  	
+			<div class="container">
+				<div class="row align-items-center justify-content-between d-flex">
+				  <div id="logo">
+					<a href="index.html"><img src="img/logo.png" alt="" title="@trollblocknet" height="50px"/></a>
+					<h1>#TrollBlockNet</h1>
+				  </div>
+				  <!--<div id="logo">
+					
+				  </div>-->
+				  <nav id="nav-menu-container">
+					<ul class="nav-menu">
+					  <li class="menu-active"><a href="index.html#home">Inici</a></li>
+					  <li><a href="index.html#llistes">Llistats</a></li>
+					  <li><a target="blank_" href="https://tbn-twitter-auth.glitch.me/logoff">Tancar Sessió</a></li>
+					  <!--<li class="menu-has-children"><a href="">Pages</a>
+						<ul>
+						  <li><a href="generic.html">Generic</a></li>
+						  <li><a href="elements.html">Elements</a></li>
+						</ul>
+					  </li>-->
+					</ul>
+				  </nav><!-- #nav-menu-container -->		    		
+				</div>
+			</div>
+		  </header><!-- #header -->	
+		  
+
+		<!--<section class="generic-banner relative">	
+			<div class="container">
+				<div class="row height align-items-center justify-content-center">
+					<div class="col-lg-10">
+						<div class="generic-banner-content">
+							<h2 class="text-white">Troll-Block Network</h2>
+							<p class="text-white">La teva xarxa anti-trolls a Twitter</p>
+						</div>							
+					</div>
+				</div>
+			</div>
+		</section>-->		
+		<!-- End banner Area -->
+	
+	<!-- About Generic Start -->
+	<div class="main-wrapper">
+		
+		<!-- Start video-sec Area --
+		<section class="video-sec-area pt-100" id="about">
+			<div class="container">
+				<div class="row justify-content-start align-items-center">
+					<div class="col-lg-6 video-right justify-content-center align-items-center d-flex">
+						<div class="overlay overlay-bg"></div>
+						<a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid" src="img/play-icon.png" alt=""></a>
+					</div>						
+					<div class="col-lg-6 video-left">
+						<h6>Live Coffee making process.</h6>
+						<h1>We Telecast our <br>
+						Coffee Making Live</h1>
+						<p><span>We are here to listen from you deliver exellence</span></p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+						</p>
+						<img class="img-fluid" src="img/signature.png" alt="">
+					</div>
+				</div>
+			</div>	
+		</section>
+		<!-- End video-sec Area -->
+
+		<!-- Start Generic Area -->
+		<section class="about-generic-area section-gap">
+			<div class="container border-top-generic">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="img-text">
+					
+						<h2 class="about-title mb-40 mt-40">🔔 REPORTS PENDENTS DE PROCESSAR:</h2>
+
+						   <div class="table-scroll">
+								<div class="table-wrap">
+								   <div id="reportsContent"></div>
+								</div>
+							</div>
+							<div style="float:left;margin-top:5px;">
+
+								<!-- REFRESH TABLE BUTTON--> 
+
+								<div style="float:left">
+									<input type="button" value="🔄" class="refreshButton">
+								</div> 
+
+								<!-- HELP BUTTON -->
+
+								<div style="float:left">
+									<input type="button" value="❓" class="helpButton">
+									<div class="card card-3">
+										<h4>⚠️ Informació al respecte de la gestió de perfils reportats:</h4>
+											<p>
+											<ul>  
+											  <li>⚪ El tweets reportats que ja existeixen a la BD (amb mateix tweetID) es tracten com a duplicats i no s'afegeixen (es descarten sense notificar).<br></li>
+											  <li>⚪ Al llistat d'aquesta pàgina només es mostren el reports dels perfils que encara no han sigut blocats a cap llista. Si la taula de la DB amb els perfils blocats s'actualitza, la llista
+											  de reports deixa de mostrar els reports d'aquest perfil (la taula s'actualitza cada cop que es refresca la pàgina, però només es pot fer 15 vegades durant una finestra de 15 minuts 
+											 per limitacions de la API Standard de Twitter<br></li>
+											</ul>
+											</p>
+										<input type="button" value="Entesos"
+										class="modalCancel" />
+									</div>
+								</div>
+							</div>	
+							<div style="float:right"><p>Last Updated: <i>timestamp</i> | API Status -> 💚❌</p></div><!--(show error dialog if API limit is reached and inform of restingthe time)-->
+						</div>
+				   </div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End Generic Start -->		
+
+		<!-- start footer Area -->		
+		<footer class="footer-area section-gap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<h6>#TrollBlockNet</h6>
+							<p>
+								🚫 Control de plagues de Trolls a Twitter 🚫 Subscriu-te ja al nostre sistema de bloqueigs automàtics! #TrollBlockNet #AlertaTroll #femXarxa #femRepública
+ 
+							</p>
+							<p class="footer-text">
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Catalan e-Republic 🎗 Llibertat preses, exiliades i represaliades polítiques 🎗 This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</p>								
+						</div>
+					</div>
+					<div class="col-lg-5  col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+					</div>
+					</div>						
+					<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+						<div class="single-footer-widget">
+							<h6>Segueix-nos <br> 
+							a Twitter</h6>
+							<p></p>
+							<div class="footer-social d-flex align-items-center">
+								<a target="blank_" href="https://www.twitter.com/trollblocknet"><i class="fa fa-twitter"></i></a>
+							</div>
+						</div>
+					</div>							
+				</div>
+			</div>
+
+		</footer>	
+		<!-- End footer Area -->	
+		
+		
+		<script src="js/vendor/bootstrap.min.js"></script>			
+		
+		<script src="js/easing.min.js"></script>			
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+		<script src="js/superfish.min.js"></script>	
+		<script src="js/jquery.magnific-popup.min.js"></script>	
+		<script src="js/owl.carousel.min.js"></script>			
+		<script src="js/jquery.sticky.js"></script>
+		<script src="js/jquery.nice-select.min.js"></script>			
+		<script src="js/parallax.min.js"></script>		
+	
+		<script src="js/main.js"></script>	
+
+
+		
+			
+<script>
+// Popup window function
+	function basicPopup(url) {
+popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
+	}
+</script>
+	</body>
+</html>

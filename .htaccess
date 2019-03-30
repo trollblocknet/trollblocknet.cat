@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^trollblocknet\.cat [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://trollblocknet.cat/$1 [R=301,L]
+
+Redirect 301 /llistes/trolls.csv https://trollblocknet.glitch.me/Trolls.csv
+Redirect 301 /llistes/regim78.csv https://trollblocknet.glitch.me/Regim.csv
+Redirect 301 /llistes/IBEX35.csv https://trollblocknet.glitch.me/IBEX.csv
+
+Redirect 301 /llistes/trolls.zip https://trollblocknet.glitch.me/Trolls.zip
+Redirect 301 /llistes/regim78.zip https://trollblocknet.glitch.me/Regim.zip
+Redirect 301 /llistes/IBEX35.zip https://trollblocknet.glitch.me/IBEX.zip
+
+Redirect 301 /subscripcio/trolls/  https://blocktogether.org/show-blocks/GWgqBncid2iblyoXxAYfRegrbKTNxIhxwAJ-teLO
+Redirect 301 /subscripcio/regim78/ https://blocktogether.org/show-blocks/QgA3z6OOvcVJl3Ods69esjJ2jlppsJCxoFsleSTO
+Redirect 301 /subscripcio/IBEX35/ https://blocktogether.org/show-blocks/4y9ZQhFGXk3NJnaHdT9jxXHAFhTtJgXrA132CyTG
